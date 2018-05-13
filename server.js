@@ -8,6 +8,7 @@ require('dotenv').config();
 const PORT = process.env.PORT || 4000
 
 app.use(`/api/v1`, jobRoutes)
+app.use(bodyParser.json())
 
 app.listen(PORT, () => {
     console.log(`APP RUNNING ON PORT ${PORT}`)}
