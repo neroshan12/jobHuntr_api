@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/neroshan12/jobHuntr_api#readme",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
     "dotenv": "^5.0.1",
     "express": "^4.16.3",
     "mocha": "^5.1.1",
