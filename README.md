@@ -15,6 +15,7 @@ The aim of this project is to build on the jobhuntr app I created when I initial
 - Middleware (json & auth)
 - User flow (Sign up, login, delete, password encryption, token)
 - Deploy
+- Security
 
 ## Difficulties
 
